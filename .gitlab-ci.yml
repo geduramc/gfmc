@@ -2,15 +2,6 @@ variables:
   API_TOKEN: $DEPLOYMENT_TOKEN
   APP_PATH: '$CI_PROJECT_DIR/dist'
 
-# specific branch build
-trigger:
-  batch: true
-  branches:
-    include:
-    - master
-    exclude:
-    - dev
-
 deploy:
   stage: deploy
   image: registry.gitlab.com/static-web-apps/azure-static-web-apps-deploy
