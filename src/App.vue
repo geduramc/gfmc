@@ -1,12 +1,16 @@
 <script setup>
   import HeaderComponent from './components/template/HeaderComponent.vue';
-  import BodyComponent from './components/template/BodyComponent.vue';
+  import ContentComponent from './components/template/ContentComponent.vue';
   import FooterComponent from './components/template/FooterComponent.vue';
 </script>
 
 <template>
   <HeaderComponent/>
-  <BodyComponent/>
+  <main>
+    <div class="container general-container">
+      <ContentComponent/>
+    </div>
+  </main>
   <FooterComponent/>
 </template>
 

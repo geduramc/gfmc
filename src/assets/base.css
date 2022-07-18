@@ -87,3 +87,11 @@ footer {
   bottom: 0;
   background-color: #343A40;
 }
+
+nav {
+  background-color: #343A40 !important;
+}
+
+.general-container{
+  padding: 4rem 2rem !important;
+}
