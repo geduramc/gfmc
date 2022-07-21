@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <footer class="fixed-bottom">
+    <footer class="page-footer font-small blue">
         <div class="footer-copyright text-center py-3">
             © {{ year }} Copyright geduramc
         </div>
