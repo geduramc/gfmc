@@ -1,4 +1,4 @@
-@import '@/assets/color_palette.css';
+@import '@/assets/theme/color_palette.css';
 
 *,
 *::before,
@@ -31,6 +31,10 @@ nav {
   color: var(--text-primary) !important;
 }
 
+.navbar-toggler {
+  border-radius: 0px !important;
+}
+
 footer {
   border-top: 1px solid var(--border-primary);
   position: absolute;
@@ -50,4 +54,12 @@ footer {
 
 .general-container{
   padding: 4rem 2rem !important;
+}
+
+button:hover{
+  border-color: #343a40;
+}
+
+.btn {
+  border-radius: 0px !important;
 }

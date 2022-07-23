@@ -22,5 +22,5 @@
 </template>
 
 <style>
-@import '@/assets/base.css';
+@import '@/assets/theme/base.css';
 </style>

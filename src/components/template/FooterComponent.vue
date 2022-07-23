@@ -12,7 +12,7 @@ export default {
 <template>
     <footer class="page-footer font-small blue">
         <div class="footer-copyright text-center py-3">
-            © {{ year }} Copyright geduramc
+          &copy; {{ year }} Copyright geduramc
         </div>
     </footer>
 </template>
