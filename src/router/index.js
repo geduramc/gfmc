@@ -21,7 +21,7 @@ const router = createRouter({
             component: PortfolioComponent,
             meta: {
                 active: true,
-                admin: false
+                admin: true
             }
         },
         {
@@ -30,7 +30,7 @@ const router = createRouter({
             component: NewPostComponent,
             meta: {
                 active: true,
-                admin: false
+                admin: true
             }
         }
     ]
@@ -41,15 +41,22 @@ let interceptors = [
     {
         name: "adminPage",
         validate: (route) => {
-            if(route.meta.admin)router.push('/');
+            if (route.meta.admin) router.push('/');
             return !route.meta.admin;
+        },
+    },
+    {
+        name: "unknown_path",
+        validate: (route) => {
+            if(!router.getRoutes().find(x => x.path == route.path)) router.push('/');
+            return true;
         }
     }
 ];
 
 router.beforeEach((to, from, next) => {
     interceptors.forEach((item) => {
-        if(!item.validate(to)) next(false);
+        if (!item.validate(to)) next(false);
         else next();
     });
 });

@@ -1,11 +1,11 @@
 <script setup>
-  import HeaderComponent from '@/components/template/HeaderComponent.vue'
-  import AsideComponent from '@/components/template/AsideComponent.vue'
-  import FooterComponent from '@/components/template/FooterComponent.vue'
+import HeaderComponent from '@/components/template/HeaderComponent.vue'
+import AsideComponent from '@/components/template/AsideComponent.vue'
+import FooterComponent from '@/components/template/FooterComponent.vue'
 </script>
 
 <template>
-  <HeaderComponent/>
+  <HeaderComponent />
   <main>
     <div class="container general-container">
       <div class="row pt-4">
@@ -13,12 +13,12 @@
           <router-view></router-view>
         </div>
         <aside class="col-md-4 blog-sidebar">
-          <AsideComponent/>
+          <AsideComponent />
         </aside>
       </div>
     </div>
   </main>
-  <FooterComponent/>
+  <FooterComponent />
 </template>
 
 <style>

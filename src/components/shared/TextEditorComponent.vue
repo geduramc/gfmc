@@ -1,10 +1,10 @@
 <script>
 export default {
-  data() {
-    return {
-      
+    data() {
+        return {
+
+        }
     }
-  }
 }
 </script>
 
@@ -13,7 +13,7 @@ export default {
 
 textarea {
     width: 100%;
-    background-color:  hsla(0, 0%, 0%, 0);
+    background-color: hsla(0, 0%, 0%, 0);
     color: var(--text-primary);
     padding: 1rem;
 }
@@ -23,22 +23,21 @@ textarea:focus {
 }
 
 button {
-    background-color:  hsla(0, 0%, 0%, 0);
+    background-color: hsla(0, 0%, 0%, 0);
     color: var(--text-primary);
     float: right;
     border-radius: 0px;
 }
 
 .btn-secondary {
-    background-color: rgba(84,91,98,.2);
+    background-color: rgba(84, 91, 98, .2);
     border-color: transparent;
 }
 
 .btn-secondary.active {
-    background-color: rgba(84,91,98,.6) !important;
+    background-color: rgba(84, 91, 98, .6) !important;
     border-color: transparent !important;
 }
-
 </style>
 
 <template>
