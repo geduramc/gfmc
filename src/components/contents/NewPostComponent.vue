@@ -1,18 +1,3 @@
-<script>
-import TextEditorComponent from '@/components/shared/TextEditorComponent.vue'
-
-export default {
-  data() {
-    return {
-
-    }
-  },
-  components: {
-    TextEditorComponent
-  }
-}
-</script>
-
 <template>
   <h1>New Post</h1>
   <div class="row">
@@ -21,3 +6,17 @@ export default {
     </div>
   </div>
 </template>
+<script lang="ts">
+import TextEditorComponent from '@/components/shared/TextEditorComponent.vue'
+
+export default {
+  setup() {
+    return {
+    }
+  },
+  components: {
+    TextEditorComponent
+  }
+}
+</script>
+<style scoped></style>

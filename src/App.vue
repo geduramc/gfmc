@@ -1,9 +1,3 @@
-<script setup>
-import HeaderComponent from '@/components/template/HeaderComponent.vue'
-import AsideComponent from '@/components/template/AsideComponent.vue'
-import FooterComponent from '@/components/template/FooterComponent.vue'
-</script>
-
 <template>
   <HeaderComponent />
   <main>
@@ -20,7 +14,21 @@ import FooterComponent from '@/components/template/FooterComponent.vue'
   </main>
   <FooterComponent />
 </template>
+<script lang="ts">
+import HeaderComponent from './components/template/HeaderComponent.vue'
+import AsideComponent from './components/template/AsideComponent.vue'
+import FooterComponent from './components/template/FooterComponent.vue'
 
+export default {
+  name: "App",
+  components: {
+    HeaderComponent,
+    AsideComponent,
+    FooterComponent
+  }
+}
+
+</script>
 <style>
 @import '@/assets/theme/base.css';
 </style>

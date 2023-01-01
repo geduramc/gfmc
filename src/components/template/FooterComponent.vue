@@ -1,18 +1,16 @@
-<script>
+<template>
+  <footer class="page-footer font-small blue">
+    <div class="footer-copyright text-center py-3">
+      By @geduramc &#9749;
+    </div>
+  </footer>
+</template>
+<script lang="ts">
 export default {
-  data() {
-    let year = new Date().getFullYear();
+  setup() {
     return {
-      year
     }
   }
 }
 </script>
-
-<template>
-  <footer class="page-footer font-small blue">
-    <div class="footer-copyright text-center py-3">
-      &copy; {{ year }} Copyright geduramc
-    </div>
-  </footer>
-</template>
+<style scoped></style>

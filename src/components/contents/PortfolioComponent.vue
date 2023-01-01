@@ -1,13 +1,12 @@
-<script>
+<template>
+  <h1>PortfolioComponent</h1>
+</template>
+<script lang="ts">
 export default {
-  data() {
+  setup() {
     return {
-
     }
   }
 }
 </script>
-
-<template>
-  <h1>PortfolioComponent</h1>
-</template>
+<style scoped></style>
