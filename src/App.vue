@@ -6,7 +6,7 @@
         <div class="col-md-8">
           <router-view></router-view>
         </div>
-        <aside class="col-md-4 blog-sidebar">
+        <aside class="col-md-4">
           <AsideComponent />
         </aside>
       </div>
