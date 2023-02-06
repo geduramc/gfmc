@@ -30,5 +30,5 @@ export default {
 
 </script>
 <style>
-@import '@/assets/theme/base.css';
+@import '@/assets/base.css';
 </style>
