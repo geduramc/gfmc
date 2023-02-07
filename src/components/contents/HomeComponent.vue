@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <div class="col-md-12 text-center">
+    <div class="col-md-12 img-container">
       <img
         src="https://uploads-ssl.webflow.com/5ecd294d76ebd3e12932a91f/5f2bfc694c1f43392e10a612_building-blocks-edit.gif"
         class="img img-fluid mx-auto rotate" role="img">
@@ -40,6 +40,12 @@ export default {
 .rotate {
   animation: rotation 8s infinite linear;
 }
+
+.img-container {
+  text-align: center;
+}
+
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);

@@ -1,8 +1,8 @@
 <template>
   <HeaderComponent />
   <main>
-    <div class="container general-container">
-      <div class="row pt-4">
+    <div class="container">
+      <div class="row">
         <div class="col-md-8">
           <router-view></router-view>
         </div>

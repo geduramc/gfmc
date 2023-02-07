@@ -21,7 +21,7 @@ export default (): Router => {
         name: 'Portfolio',
         component: PortfolioComponent,
         meta: {
-          active: true,
+          active: false,
           admin: true
         }
       },
@@ -30,7 +30,7 @@ export default (): Router => {
         name: 'New Post',
         component: NewPostComponent,
         meta: {
-          active: true,
+          active: false,
           admin: true
         }
       }
