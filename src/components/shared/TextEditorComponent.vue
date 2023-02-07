@@ -20,8 +20,6 @@ export default {
 </script>
 
 <style scoped>
-@import '@/assets/theme/color_palette.css';
-
 textarea {
   width: 100%;
   background-color: hsla(0, 0%, 0%, 0);

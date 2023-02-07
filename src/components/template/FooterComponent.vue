@@ -1,8 +1,8 @@
 <template>
-  <footer class="page-footer font-small blue">
-    <div class="footer-copyright text-center py-3">
+  <footer>
+    <p>
       By @geduramc &#9749;
-    </div>
+    </p>
   </footer>
 </template>
 <script lang="ts">

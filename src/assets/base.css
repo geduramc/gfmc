@@ -1,0 +1,56 @@
+@import '@/assets/grid.css';
+@import '@/assets/color_palette.css';
+
+body {
+  min-height: 100vh;
+  color: var(--text-primary);
+  background: var(--background-primary);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'IBM', monospace;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: var(--background-primary);
+  border-bottom: 1px solid var(--border-primary);
+  padding: .5rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+main {
+  margin-top: 4rem;
+}
+
+footer {
+  border-top: 1px solid var(--border-primary);
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+}
+
+li > a {
+  color: var(--text-primary);
+}
+
+button:hover {
+  border-color: #343a40;
+}
+
+.btn {
+  border-radius: 0px;
+}
