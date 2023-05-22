@@ -1,2 +1,3 @@
-# gfmc
-geduramc web
+<p align="center">
+  By @geduramc ☕
+</p>
