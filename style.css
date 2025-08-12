@@ -89,11 +89,15 @@ a.github {
 }
 
 a.blog {
-  background-color: #3AAF85;
+  background-color: #E4405F;
 }
 
-a.portfolio {
-  background-color: #E4405F;
+a.snippet-vault {
+  background-color: #6272A4;
+}
+
+a.gcode {
+  background-color: #7E57C2;
 }
 
 .disabled {
