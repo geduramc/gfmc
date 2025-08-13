@@ -1,3 +1,3 @@
 <p align="center">
-  By @geduramc ☕
+  By @geduma ☕
 </p>
